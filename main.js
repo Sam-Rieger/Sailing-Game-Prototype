@@ -1,21 +1,9 @@
-var term = require( 'terminal-kit' ).terminal;
+const game = require('./modules/game_utilities.js');
+const UI = require('./modules/UI_utilities.js');
 
-function question() {
-	term( 'Do you like javascript? [Y|n]\n' ) ;
-	
-	// Exit on y and ENTER key
-	// Ask again on n
-	term.yesOrNo( { yes: [ 'y' , 'ENTER' ], no: [ 'n' ] } , function( error , result ) {
-	
-		if ( result ) {
-			term.green( "'Yes' detected! Good bye!\n" );
-			process.exit();
-		}
-		else {
-			term.red( "'No' detected, are you sure?\n" );
-			question();
-		}
-	});
+//UI.clear_terminal();
+UI.display_UI_options_tabs();
+
+if(UI.yes_or_no_question('Do you like javascript? [y|n]\n') == 1) {
+    
 }
-
-question();
