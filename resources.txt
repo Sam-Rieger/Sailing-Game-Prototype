@@ -1,0 +1,3 @@
+run a file with "node filename" in terminal.
+
+www.npmjs.com/package/terminal-kit
