@@ -25,7 +25,9 @@ exports.clear_terminal = function () {
 }
 
 //display the options a player has
-exports.display_UI_options_tabs = function (returnFunction) {
+exports.display_UI_options_tabs = function () {
+
+
 
 	var menu_options = ["Option1", "Option2", "Option3", "Option4"];
 
@@ -39,7 +41,7 @@ exports.display_UI_options_tabs = function (returnFunction) {
 			//terminal.red(response.selectedText);
 			//console.log(response.selectedIndex);
 			//process.exit();
-			returnFunction(response);
+			resolve(response);
 			terminal.processExit();
 		}
 	);
