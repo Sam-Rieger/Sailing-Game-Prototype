@@ -1,9 +1,0 @@
-{
-  "version": "0.0.0",
-  "description": "",
-  "main": "main.js",
-  "dependencies": {
-    "terminal-kit": "^3.0.1"
-  }
-}
-
