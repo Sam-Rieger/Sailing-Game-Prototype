@@ -6,11 +6,15 @@ html {
 
 }
 
+h1 {
+    font-size: 400%;
+}
+
 #content_box {
-    height: 40vmax;
+    height: 30vmax;
     background-color: darkblue;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 17%;
+    margin-right: 17%;
     margin-bottom: 1%;
     border-radius: 5px;
     color: white;
