@@ -1,6 +1,47 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: saddlebrown;
-  }
-  
+    background-color: darkslateblue;
+    text-align: center;
+
+}
+
+#content_box {
+    height: 40vmax;
+    background-color: darkblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+
+}
+
+#typing_box {
+    width:60%;
+    background-color: darkblue;
+
+}
+#submit_button {
+    background-color: darkblue;
+
+}
+
+#submit_button:hover {
+    background-color: rgb(0, 0, 100);
+    cursor:pointer;
+}
+#submit_button:active {
+    background-color: rgb(0, 0, 80);
+    cursor: pointer;
+
+}
